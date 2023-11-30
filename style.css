@@ -41,5 +41,10 @@ body {
         font-size: large;
         background-color: blue;
         display:flex;
+        text-align:center;
+        
+    }
+    p{
+        padding:2em
     }
 }
