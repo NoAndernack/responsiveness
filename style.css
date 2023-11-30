@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+@media screen and (max-width:480px) {
+    body {
+        font-size: small;
+        background-color: red;
+      
+
+    }
+
+    
+}
+
+
+@media screen and (min-width:480px) and (max-width:1024px) {
+    body {
+        font-size: medium;
+        background-color: green;
+        display:grid;
+        grid-template-columns: 2fr 1fr 3fr;
+        gap:2em;
+
+    }
+}
+
+@media screen and (min-width:1024px) {
+    body {
+        font-size: large;
+        background-color: blue;
+        display:flex;
+    }
+}
